@@ -8,6 +8,7 @@
 @font-face {
   font-family: 'Inter';
   font-weight: bold;
+  /* bold равняется font-weight = 700 */
   src: url(../fonts/Inter-Bold.woff) format('woff'),
        url(../fonts/Inter-Bold.woff2) format('woff2');
 }
@@ -35,6 +36,41 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+}
+
+.first_section {
+  display: flex;
+  margin: 0px 40px;
+}
+
+.firstfirst_subsect{
+  width: 30%;
+}
+
+.firstsecond_subsect{
+  width: 70%;
+}
+
+.facts_section{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px;
+}
+
+.row_section{
+  display: flex;
+  margin: 25px;
+}
+
+.fact_section{
+  width: 25%;
+  margin: 0px 15px;
+}
+
+.black_roundbordered{
+  border-radius: 40px;
+  background-color: black;
+  color: #fff;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
